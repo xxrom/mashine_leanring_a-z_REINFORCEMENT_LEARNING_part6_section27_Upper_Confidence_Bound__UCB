@@ -55,7 +55,12 @@ for n in range(0, N) : # [0,10000)
 # самая продаваемая реклама будет с 4 index , получается 5 столбец в базе
 # смотреть надо на sums_of_rewards и на numbers_of_selections
 
-
+# Visualising the results
+plt.hist(ads_selected)
+plt.title('Histogram of ads selectons (UCB)')
+plt.xlabel('Ads')
+plt.ylabel('Number of times each ad was selected')
+plt.show()
 
 
 
