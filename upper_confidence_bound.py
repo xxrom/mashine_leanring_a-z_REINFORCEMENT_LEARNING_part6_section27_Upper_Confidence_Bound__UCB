@@ -53,6 +53,7 @@ for n in range(0, N) : # [0,10000)
   total_reward = total_reward + reward
 
 # самая продаваемая реклама будет с 4 index , получается 5 столбец в базе
+# смотреть надо на sums_of_rewards и на numbers_of_selections
 
 
 
